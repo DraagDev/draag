@@ -108,7 +108,7 @@ const buildBottomNavbar = () => {
       "                   </ul>" +
       "               </li>" +*/
       //'               <li><a href="gallery.html">Gallery</a></li>' +
-      '               <li><a href="blog-2-colum.html" data-i18n="blogs">Blogs</a></li>' +
+      //'               <li><a href="blog-2-colum.html" data-i18n="blogs">Blogs</a></li>' +
       /*'               <li class="dropdown">' +
       '                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" >Blog</a>' +
       '                   <ul class="dropdown-menu">' +
