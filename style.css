@@ -1416,6 +1416,9 @@ nav.navbar.bootsnav.sticked .attr-nav.social li {
 .top-bar-area .flex-item.left {
   justify-content: left;
 }
+.top-bar-area .flex-item.right {
+  justify-content: right;
+}
 
 .top-bar-area.inc-pad {
   padding: 10px 0;
