@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 const buildTopNavbar = () => {
-  let bar = document.getElementById("topBarArea");
-  if (bar) {
-    bar.innerHTML =
+  let element = document.getElementById("topBarArea");
+  if (element) {
+    element.innerHTML =
       '<div class="top-bar-area bg-dark text-light inc-pad" dir='+ (language === 'en' ? "ltr" : "rtl") +'>' +
       '<div class="container-fluid">' +
       '    <div class="row align-center">' +
@@ -66,9 +66,9 @@ const buildTopNavbar = () => {
 };
 
 const buildBottomNavbar = () => {
-  let bar = document.getElementById("bottomBarArea");
-  if (bar) {
-    bar.innerHTML =
+  let element = document.getElementById("bottomBarArea");
+  if (element) {
+    element.innerHTML =
       '<nav class="navbar navbar-default navbar-sticky bootsnav">' +
       '   <div class="container-fluid">' +
       /*'        <div class="attr-nav inc-border">' +
@@ -76,8 +76,8 @@ const buildBottomNavbar = () => {
       '               <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>' +
       "            </ul>" +
       "        </div> " +*/
-      '        <div class="navbar-header" style="float:'+ (language==="en" ? "left" : "right") + ';">' +
-      '            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">' +
+      '        <div class="navbar-header" style="float:'+ (window.innerWidth <= 1023 ? "none" :(language==="en" ? "left" : "right")) + ';">' +
+      '            <button type="button" class="navbar-toggle" style="float:'+ (language==="en" ? "left" : "right; margin-right:0;") + ';" data-toggle="collapse" data-target="#navbar-menu">' +
       '                <i class="fa fa-bars"></i>' +
       "            </button>" +
       '            <a class="navbar-brand mx-0 px-0" href="index.html">' +
@@ -87,7 +87,7 @@ const buildBottomNavbar = () => {
       "        <!-- End Header Navigation -->" +
       "       <!-- Collect the nav links, forms, and other content for toggling -->" +
       '        <div class="collapse navbar-collapse" id="navbar-menu">' +
-      '            <ul class="nav navbar-nav navbar-center d-flex justify-content-center '+ (language==="en" ? "flex-row" : "flex-row-reverse") + '" data-in="fadeInDown" data-out="fadeOutUp">' +
+      '            <ul class="nav navbar-nav navbar-center'+ (window.innerWidth >= 1023 ? (language==="en" ? " d-flex justify-content-center flex-row" : " d-flex justify-content-center flex-row-reverse") : "") + '" data-in="fadeInDown" data-out="fadeOutUp">' +
       '               <li><a href="index.html" data-i18n="home">Home</a></li>' +
       '               <li><a href="products.html" data-i18n="products">Products</a></li>' +
       /*'                <li class="dropdown">' +
@@ -163,60 +163,52 @@ const buildBottomNavbar = () => {
 };
 
 const buildFooter = () => {
-  let bar = document.getElementById("footerArea");
-  if (bar) {
-    bar.innerHTML =
+  let element = document.getElementById("footerArea");
+  if (element) {
+    element.innerHTML =
       "<!-- Fixed Shape -->" +
+      '  <div dir="'+ (language==="en" ? "ltr" : "rtl") +'">' +
       '  <div class="fixed-shape">' +
       '        <img src="assets/img/shape/2.png" alt="Shape">' +
       "    </div>" +
       "    <!-- Fixed Shape -->" +
-      '   <div class="container">' +
+      '   <div class="container text-'+(language==="en" ? "left" : "right")+'">' +
       '       <div class="f-items default-padding">' +
       '           <div class="row">' +
       "               <!-- Single Itme -->" +
-      '               <div class="col-lg-4 col-md-6 item">' +
+      '               <div class="col-lg-5 col-md-6 item">' +
       '                   <div class="f-item about">' +
       '                       <img src="assets/img/logo-light.png" alt="Logo">' +
-      "                       <p>" +
+      "                       <p data-i18n='footerText'>" +
       "                           Happen active county. Winding for the morning am shyness evident to poor. Garrets because elderly new to the point." +
       "                       </p>" +
-      '                       <form action="#">' +
+      /*'                       <form action="#">' +
       '                           <input type="email" placeholder="Your Email" class="form-control" name="email">' +
       '                           <button type="submit"> Subscribe</button>  ' +
-      "                       </form>" +
+      "                       </form>" +*/
       "                   </div>" +
       "               </div>" +
       "               <!-- End Single Itme -->" +
       "               <!-- Single Itme -->" +
-      '                <div class="col-lg-2 col-md-6 item">' +
-      '                   <div class="f-item link">' +
-      '                       <h4 class="widget-title">Explore</h4>' +
+      '                <div class="col-lg-3 col-md-6 item">' +
+      '                   <div class="f-item link" >' +
+      '                       <h4 class="widget-title" data-i18n="usefulLinks">Useful links</h4>' +
       "                       <ul>" +
       "                           <li>" +
-      '                               <a href="#">About Us</a>' +
+      '                               <a href="/products.html" data-i18n="products">Products</a>' +
+      "                           </li>" +            
+      "                           <li>" +
+      '                               <a href="/about-us.html" data-i18n="aboutUs">About Us</a>' +
       "                           </li>" +
       "                           <li>" +
-      '                               <a href="#">Meet Our Team</a>' +
-      "                           </li>" +
-      "                           <li>" +
-      '                               <a href="#">News & Media</a>' +
-      "                           </li>" +
-      "                           <li>" +
-      '                               <a href="#">Services</a>' +
-      "                           </li>" +
-      "                           <li>" +
-      '                               <a href="#">Contact Us</a>' +
-      "                           </li>" +
-      "                           <li>" +
-      '                               <a href="#">Volunteers</a>' +
+      '                               <a href="/contact.html" data-i18n="contact">Contact</a>' +
       "                           </li>" +
       "                       </ul>" +
       "                   </div>" +
       "               </div>" +
       "               <!-- End Single Itme -->" +
       "                <!-- Single Itme -->" +
-      '               <div class="col-lg-3 col-md-6 item">' +
+      /*'               <div class="col-lg-3 col-md-6 item">' +
       '                   <div class="f-item recent-post">' +
       '                       <h4 class="widget-title">Recent Posts</h4>' +
       "                       <ul>" +
@@ -248,7 +240,7 @@ const buildFooter = () => {
       "                           </li>" +
       "                       </ul>" +
       "                   </div>" +
-      "               </div>" +
+      "               </div>" +*/
       "               <!-- End Single Itme -->" +
       "               <!-- Single Itme -->" +
       '               <div class="col-lg-3 col-md-6 item">' +
@@ -257,16 +249,16 @@ const buildFooter = () => {
       '                       <div class="address">' +
       "                           <ul>" +
       "                               <li>" +
-      "                                   <strong>Address: </strong>" +
-      "                                    5919 Trussville Crossings Pkwy, Birmingham AL 35235" +
+      "                                   <strong class='mx-0' data-i18n='address'>Address</strong><strong>:</strong>" +
+      "                                    <span data-i18n='addressContent'>5919 Trussville Crossings Pkwy, Birmingham AL 35235</span>" +
       "                                </li>" +
       "                                <li>" +
-      "                                    <strong>Email: </strong>" +
+      "                                    <strong class='mx-0' data-i18n='email'>Email</strong><strong>:</strong>" +
       '                                    <a href="mailto:info@validtheme.com">info@validtheme.com</a>' +
       "                                </li>" +
       "                               <li>" +
-      "                                   <strong>Phone: </strong>" +
-      '                                   <a href="#"> +123 456 7890</a>' +
+      "                                   <strong class='mx-0' data-i18n='phone'>Phone</strong><strong>:</strong>" +
+      '                                   <a href="#" dir="ltr"> +20111156161</a>' +
       "                               </li>" +
       "                           </ul>" +
       "                       </div>" +
@@ -318,6 +310,8 @@ const buildFooter = () => {
       "           </div>" +
       "       </div>" +
       "   </div>" +
+      "   </div>" +
       "   <!-- End Footer Bottom -->";
   }
 };
+

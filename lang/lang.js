@@ -14,7 +14,14 @@ var translations = {
         'products': "Products",
         'contact': "Contact",
         'blogs': "Blogs",
-        'topBarText': 'That\'s right, we only sell 100% organic'
+        'topBarText': 'That\'s right, we only sell 100% organic',
+        'footerText': "Happen active county. Winding for the morning am shyness evident to poor. Garrets because elderly new to the point.",
+        'usefulLinks': "Useful Links",
+        'address': "Address",
+        'addressContent': "5919 Trussville Crossings Pkwy, Birmingham AL 35235",
+        'email': "Email",
+        'phone': "Phone",
+        'sendNow': "Send Now",
     },
     
     'ar':{
@@ -23,7 +30,14 @@ var translations = {
         'products': "المنتجات",
         'contact': "التواصل",
         'blogs': "المدونات",
-        'topBarText': 'هذا صحيح ، نحن نبيع عضويًا بنسبة 100٪ فقط'
+        'topBarText': 'هذا صحيح ، نحن نبيع عضويًا بنسبة 100٪ فقط',
+        'footerText': 'هذا صحيح ، نحن نبيع عضويًا بنسبة 100٪ فقط',
+        'usefulLinks': "روابط مفيدة",
+        'address': "العنوان",
+        'addressContent': "5919 تروسفيل كروسينغز بي كي دبليو واي ، برمنغهام",
+        'email': "البريد إلالكتروني",
+        'phone': "الهاتف",
+        'sendNow': "ارسل الان",
     }
 }
 
