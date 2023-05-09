@@ -29,6 +29,7 @@ const buildHeader = () =>{
 }
 const buildContent = () =>{
     let element = document.getElementById("contactInfoContainer");
+    
     if (element) {
       element.innerHTML =
         '<div class="container-full '+(language==="en" ? "text-left" : "text-right")+'" '+ (language==="en" ? "dir='ltr'" : "dir='rtl'") +'>'+
