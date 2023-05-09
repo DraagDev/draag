@@ -9,10 +9,10 @@ function isEmail($email) {
 
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
-$name     = $_POST['name'];
-$email    = $_POST['email'];
-$phone     = $_POST['phone'];
-$comments = $_POST['comments'];
+$name     = $_POST['name']?? "";
+$email    = $_POST['email']?? "";
+$phone     = $_POST['phone']?? "";
+$comments = $_POST['comments']?? "";
 
 if(trim($name) == '') {
 	echo '<div class="alert alert-error">You must enter your name.</div>';
