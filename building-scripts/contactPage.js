@@ -54,7 +54,7 @@ const buildContent = () =>{
         '           <div class="col-lg-5">'+
         '               <div class="form-content">'+
         '                   <h2 data-i18n="leaveAMessage">Leave a message</h2>'+
-        '                   <form action="../assets/mail/contact.php" method="POST" class="contact-form">'+
+        '                   <form action="assets/mail/contact.php" method="POST" class="contact-form">'+
         '                       <div class="row">'+
         '                           <div class="col-lg-6">'+
         '                               <div class="form-group">'+
