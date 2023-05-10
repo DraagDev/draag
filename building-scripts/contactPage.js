@@ -17,7 +17,7 @@ const buildHeader = () =>{
       (language==="en" ? "" : '.breadcrumb-area .breadcrumb li::after {   right: 0px; }') +
      '</style>'+
       '            <ul class="breadcrumb" '+(language==="en" ? "dir='ltr'" : "dir='rtl'")+'>'+
-      '               <li><a href="#" ><i class="fas fa-home"></i> <span data-i18n="home">Home</span></a></li>'+
+      '               <li><a href="/" ><i class="fas fa-home"></i> <span data-i18n="home">Home</span></a></li>'+
       '               <li class="active" data-i18n="contact">Contact</li>'+
       '           </ul>'+
       '        </div>'+
