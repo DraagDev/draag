@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     buildHeader();
     buildAboutContentSection();
-    buildFAQContentSection();
+    //buildFAQContentSection();
 });
   
 

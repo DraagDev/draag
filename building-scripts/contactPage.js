@@ -108,6 +108,7 @@ const inserGoogleMap = () => {
   let element = document.getElementById("googleMapContainer");
   if (element) {
     element.innerHTML =
-    '<iframe style="border:0; '+(language==="en" ? "right:0;" : "left:0;")+'" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110690.10655185032!2d31.410495226243157!3d29.891203733310746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145827cabfb4ddfd%3A0xac1979302da39ec8!2sEl%20Yasmeen%20Hotel!5e0!3m2!1sen!2seg!4v1683478599721!5m2!1sen!2seg" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+    '<iframe style="border:0; '+(language==="en" ? "right:0;" : "left:0;")+'" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28849.123894595345!2d30.979374826193492!3d28.98749772298639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145a321635570371%3A0x74babb37668bd132!2sQanbash%20Al%20Hamraa%2C%20Biba%2C%20Beni%20Suef%20Governorate%202652407!5e0!3m2!1sen!2seg!4v1683996969883!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+    //'<iframe style="border:0; '+(language==="en" ? "right:0;" : "left:0;")+'" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110690.10655185032!2d31.410495226243157!3d29.891203733310746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145827cabfb4ddfd%3A0xac1979302da39ec8!2sEl%20Yasmeen%20Hotel!5e0!3m2!1sen!2seg!4v1683478599721!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>'
   }
 }
