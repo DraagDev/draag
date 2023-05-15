@@ -43,18 +43,18 @@ const buildContent = () =>{
         '                   </li>'+
         '                   <li>'+
         '                       <h4 data-i18n="phone">Phone</h4>'+
-        '                       <span>+44-20-7328-4499 <br>+99-34-8878-9989</span>'+
+        '                       <span>+20 155 141 1117 <br>+20 155 045 5045 <br>+20 82 2378067 <br>+20 82 2378065</span>'+
         '                   </li>'+
         '                   <li>'+
         '                       <h4 data-i18n="email">Email</h4>'+
-        '                       <span>info@yourdomain.com<br>admin@yourdomain.com</span>'+
+        '                       <span>doctordraag@gmail.com</span>'+
         '                   </li>'+
         '               </ul>'+
         '           </div>'+
         '           <div class="col-lg-5">'+
         '               <div class="form-content">'+
         '                   <h2 data-i18n="leaveAMessage">Leave a message</h2>'+
-        '                   <form action="assets/mail/contact.php" method="POST" class="contact-form">'+
+        '                   <form id="contactform" action="https://formsubmit.io/send/draag.info@gmail.com" method="POST" class="contact-form">'+
         '                       <div class="row">'+
         '                           <div class="col-lg-6">'+
         '                               <div class="form-group">'+
@@ -69,24 +69,25 @@ const buildContent = () =>{
         '                               </div>'+
         '                           </div>'+
         '                       </div>'+
-        '                       <div class="row">'+
+        /*'                       <div class="row">'+
         '                           <div class="col-lg-12">'+
         '                               <div class="form-group">'+
         '                                   <input class="form-control" id="phone" name="phone" placeholder="'+(language==="en" ? "Phone" : "الهاتف")+'" type="text">'+
         '                                   <span class="alert-error"></span>'+
         '                               </div>'+
         '                           </div>'+
-        '                       </div>'+
+        '                       </div>'+*/
         '                       <div class="row">'+
         '                           <div class="col-lg-12">'+
         '                               <div class="form-group comments">'+
-        '                                   <textarea class="form-control" id="comments" name="comments" placeholder="'+(language==="en" ? "Please describe what you need." : "يرجى وصف ما تحتاجه.")+'"></textarea>'+
+        '                                   <textarea class="form-control" id="comment" name="comment" placeholder="'+(language==="en" ? "Please describe what you need." : "يرجى وصف ما تحتاجه.")+'"></textarea>'+
         '                               </div>'+
         '                          </div>'+
         '                       </div>'+
+        '        <input name="_formsubmit_id" type="text" style="display:none">'+
         '                       <div class="row">'+
         '                           <div class="col-lg-12">'+
-        '                               <button type="submit" name="submit" id="submit" data-i18n="sendNow">'+
+        '                               <button value="Submit" type="submit" name="submit" id="submit" data-i18n="sendNow">'+
         '                                   Send Now'+
         '                               </button>'+
         '                           </div>'+

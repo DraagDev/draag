@@ -28,7 +28,157 @@ const products = [
             ar:"500 جم",
         },
         'img': "assets/img/800x600.png"
-    }
+    },
+    {
+        'name': {
+            en:"Chicken",
+            ar: "فراخ"
+        },
+        'description': {
+            en:"Best chicken in the farm",
+            ar:"احلا فراخ",
+        },
+        'price': {
+            en:"500 EGP",
+            ar:"500 جم",
+        },
+        'img': "assets/img/800x600.png"
+    },
+    {
+        'name': {
+            en:"Chicken",
+            ar: "فراخ"
+        },
+        'description': {
+            en:"Best chicken in the farm",
+            ar:"احلا فراخ",
+        },
+        'price': {
+            en:"500 EGP",
+            ar:"500 جم",
+        },
+        'img': "assets/img/800x600.png"
+    },
+    {
+        'name': {
+            en:"Chicken",
+            ar: "فراخ"
+        },
+        'description': {
+            en:"Best chicken in the farm",
+            ar:"احلا فراخ",
+        },
+        'price': {
+            en:"500 EGP",
+            ar:"500 جم",
+        },
+        'img': "assets/img/800x600.png"
+    },
+    {
+        'name': {
+            en:"Chicken",
+            ar: "فراخ"
+        },
+        'description': {
+            en:"Best chicken in the farm",
+            ar:"احلا فراخ",
+        },
+        'price': {
+            en:"500 EGP",
+            ar:"500 جم",
+        },
+        'img': "assets/img/800x600.png"
+    },
+    {
+        'name': {
+            en:"Chicken",
+            ar: "فراخ"
+        },
+        'description': {
+            en:"Best chicken in the farm",
+            ar:"احلا فراخ",
+        },
+        'price': {
+            en:"500 EGP",
+            ar:"500 جم",
+        },
+        'img': "assets/img/800x600.png"
+    },
+    {
+        'name': {
+            en:"Chicken",
+            ar: "فراخ"
+        },
+        'description': {
+            en:"Best chicken in the farm",
+            ar:"احلا فراخ",
+        },
+        'price': {
+            en:"500 EGP",
+            ar:"500 جم",
+        },
+        'img': "assets/img/800x600.png"
+    },
+    {
+        'name': {
+            en:"Chicken",
+            ar: "فراخ"
+        },
+        'description': {
+            en:"Best chicken in the farm",
+            ar:"احلا فراخ",
+        },
+        'price': {
+            en:"500 EGP",
+            ar:"500 جم",
+        },
+        'img': "assets/img/800x600.png"
+    },
+    {
+        'name': {
+            en:"Chicken",
+            ar: "فراخ"
+        },
+        'description': {
+            en:"Best chicken in the farm",
+            ar:"احلا فراخ",
+        },
+        'price': {
+            en:"500 EGP",
+            ar:"500 جم",
+        },
+        'img': "assets/img/800x600.png"
+    },
+    {
+        'name': {
+            en:"Chicken",
+            ar: "فراخ"
+        },
+        'description': {
+            en:"Best chicken in the farm",
+            ar:"احلا فراخ",
+        },
+        'price': {
+            en:"500 EGP",
+            ar:"500 جم",
+        },
+        'img': "assets/img/800x600.png"
+    },
+    {
+        'name': {
+            en:"Chicken",
+            ar: "فراخ"
+        },
+        'description': {
+            en:"Best chicken in the farm",
+            ar:"احلا فراخ",
+        },
+        'price': {
+            en:"500 EGP",
+            ar:"500 جم",
+        },
+        'img': "assets/img/800x600.png"
+    },
 ]
 
 document.addEventListener("DOMContentLoaded", () => {

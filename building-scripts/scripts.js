@@ -124,7 +124,7 @@ const buildBottomNavbar = () => {
       '               <li><a href="contact.html" data-i18n="contact">Contact</a></li>' +
       (language === "ar"
         ? '               <li><a href="/" style="text-decoration:underline;" onclick="changeLanguage(event, \'en\')" key="en"><i class="fa fa-globe" aria-hidden="true"></i> English</a></li>'
-        : '               <li><a href="#" style="text-decoration:underline;" onclick="changeLanguage(event, \'ar\')" key="ar">العربية <i class="fa fa-globe" aria-hidden="true"></i></a></li>') +
+        : '               <li><a href="#" style="text-decoration:underline;" onclick="changeLanguage(event, \'ar\')" key="ar">عربي <i class="fa fa-globe" aria-hidden="true"></i></a></li>') +
       "           </ul>" +
       "       </div>" +
       "   </div>" +
@@ -250,15 +250,15 @@ const buildFooter = () => {
       "                           <ul>" +
       "                               <li>" +
       "                                   <strong class='mx-0' data-i18n='address'>Address</strong><strong>:</strong>" +
-      "                                    <span data-i18n='addressContent'>5919 Trussville Crossings Pkwy, Birmingham AL 35235</span>" +
+      "                                    <span data-i18n='addressContent'>Qanbash Al Hamraa, Biba, Beni Suef Governorate</span>" +
       "                                </li>" +
       "                                <li>" +
       "                                    <strong class='mx-0' data-i18n='email'>Email</strong><strong>:</strong>" +
-      '                                    <a href="mailto:info@validtheme.com">info@validtheme.com</a>' +
+      '                                    <a href="mailto:doctordraag@gmail.com">doctordraag@gmail.com</a>' +
       "                                </li>" +
       "                               <li>" +
       "                                   <strong class='mx-0' data-i18n='phone'>Phone</strong><strong>:</strong>" +
-      '                                   <a href="#" dir="ltr"> +20111156161</a>' +
+      '                                   <a href="#" dir="ltr"> +20 155 141 1117</a>' +
       "                               </li>" +
       "                           </ul>" +
       "                       </div>" +
