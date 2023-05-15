@@ -3,7 +3,42 @@ document.addEventListener("DOMContentLoaded", () => {
     buildContent();
     inserGoogleMap()
 });
+function sendForm(form) {
+  console.log(form.name.value)
+  const data ={
+    name: form.name.value,
+    email: form.email.value,
+    phone: form.phone.value,
+    comment: form.comment.value,
+  }
+
+  let elementSuccess = document.getElementById("successContainer");
+  let elementError = document.getElementById("errorContainer");
+  let btn = document.getElementById("submit");
+  elementSuccess.innerHTML = ""
+  elementError.innerHTML = ""
+
   
+  $.ajax({
+    url: 'https://formsubmit.io/send/draag.info@gmail.com',            
+    method: 'POST',
+    type: 'json',
+    data: data,
+    success: function (response) {
+      elementSuccess.innerHTML =(language==="en" ? "Message sent successfully" : "تم ارسال الرسالة بنجاح")
+      btn.disabled = true
+      btn.style = "background-color:#6c757d; color:#FFF"
+    },
+    error: function (error) {
+      elementError.innerHTML =(language==="en" ? "Something went wrong" : "حدث خطأ ما")
+    }
+    });
+  return false;
+}
+
+
+  
+
 const buildHeader = () =>{
     let element = document.getElementById("contactUsHeader");
     if (element) {
@@ -54,33 +89,37 @@ const buildContent = () =>{
         '           <div class="col-lg-5">'+
         '               <div class="form-content">'+
         '                   <h2 data-i18n="leaveAMessage">Leave a message</h2>'+
-        '                   <form id="contactform" action="https://formsubmit.io/send/draag.info@gmail.com" method="POST" class="contact-form">'+
+        '                   <form id="contactform" onsubmit="return sendForm(this)" method="POST">'+
+        '                       <p id="errorContainer" class="alert-error text-danger text-center"></p>'+
+        '                       <p id="successContainer" class="alert-error text-success"></p>'+
+
         '                       <div class="row">'+
         '                           <div class="col-lg-6">'+
         '                               <div class="form-group">'+
-        '                                   <input class="form-control" id="name" name="name" placeholder="'+(language==="en" ? "Name" : "الاسم")+'" type="text">'+
+        '                                   <input required class="form-control" id="name" name="name" placeholder="'+(language==="en" ? "Name" : "الاسم")+'" type="text">'+
         '                                   <span class="alert-error"></span>'+
         '                               </div>'+
         '                           </div>'+
         '                           <div class="col-lg-6">'+
+        
         '                               <div class="form-group">'+
-        '                                   <input class="form-control" id="email" name="email" placeholder="'+(language==="en" ? "Email*" : "البريد الالكترونى*")+'" type="email">'+
+        '                                   <input required class="form-control" id="phone" name="phone" placeholder="'+(language==="en" ? "Phone" : "الهاتف")+'" type="text">'+
         '                                   <span class="alert-error"></span>'+
         '                               </div>'+
         '                           </div>'+
         '                       </div>'+
-        /*'                       <div class="row">'+
+        '                       <div class="row">'+
         '                           <div class="col-lg-12">'+
         '                               <div class="form-group">'+
-        '                                   <input class="form-control" id="phone" name="phone" placeholder="'+(language==="en" ? "Phone" : "الهاتف")+'" type="text">'+
+        '                                   <input required class="form-control" id="email" name="email" placeholder="'+(language==="en" ? "Email*" : "البريد الالكترونى*")+'" type="email">'+
         '                                   <span class="alert-error"></span>'+
         '                               </div>'+
         '                           </div>'+
-        '                       </div>'+*/
+        '                       </div>'+
         '                       <div class="row">'+
         '                           <div class="col-lg-12">'+
-        '                               <div class="form-group comments">'+
-        '                                   <textarea class="form-control" id="comment" name="comment" placeholder="'+(language==="en" ? "Please describe what you need." : "يرجى وصف ما تحتاجه.")+'"></textarea>'+
+        '                               <div class="form-group">'+
+        '                                   <textarea required class="form-control" id="comment" name="comment" placeholder="'+(language==="en" ? "Please describe what you need." : "يرجى وصف ما تحتاجه.")+'"></textarea>'+
         '                               </div>'+
         '                          </div>'+
         '                       </div>'+
