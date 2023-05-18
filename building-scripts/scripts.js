@@ -24,11 +24,11 @@ const buildTopNavbar = () => {
       "                    That's right, we only sell 100% organic" +
       "                </p>" +
       "                <ul>" +
-      "                    <li data-i18n='topBarAddress'>" +
-      '                        <i class="fas fa-map-marker-alt"></i> California, TX 70240' +
+      "                    <li>" +
+      '                        <i class="fas fa-map-marker-alt mx-1"></i> <span data-i18n="addressContent">Qanbash Al Hamraa, Biba, Beni Suef Governorate</span>' +
       "                    </li>" +
       "                    <li class='mx-3'>" +
-      '                        <i class="fas fa-envelope-open"></i> Info@gmail.com' +
+      '                        <i class="fas fa-envelope-open"></i> doctordraag@gmail.com' +
       "                    </li>" +
       "                </ul>" +
       "            </div>" +
