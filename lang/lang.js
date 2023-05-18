@@ -12,7 +12,7 @@ var translations = {
         'home': 'Home',
         'aboutUs': "About Us",
         'products': "Products",
-        'contact': "Contact",
+        'contact': "Contact Us",
         'blogs': "Blogs",
         'topBarText': 'That\'s right, we only sell 100% organic',
         'footerText': "Happen active county. Winding for the morning am shyness evident to poor. Garrets because elderly new to the point.",

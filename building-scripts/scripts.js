@@ -94,6 +94,7 @@ const buildBottomNavbar = () => {
       '        <div class="collapse navbar-collapse" id="navbar-menu">' +
       '            <ul class="nav navbar-nav navbar-center'+ (window.innerWidth >= 1023 ? (language==="en" ? " d-flex justify-content-center flex-row" : " d-flex justify-content-center flex-row-reverse") : (language==="en" ? " text-left" : " text-right")) + '" data-in="fadeInDown" data-out="fadeOutUp">' +
       '               <li><a href="index.html" data-i18n="home">Home</a></li>' +
+      '               <li><a href="about-us.html" data-i18n="aboutUs">About Us</a></li>' +
       '               <li><a href="products.html" data-i18n="products">Products</a></li>' +
       /*'                <li class="dropdown">' +
       '                   <a href="#" class="dropdown-toggle lang" data-toggle="dropdown" data-i18n="home">Home</a>' +
@@ -125,7 +126,6 @@ const buildBottomNavbar = () => {
       '                       <li><a href="blog-single-with-sidebar.html">Blog Single With Sidebar</a></li>' +
       "                   </ul>" +
       "               </li>" +*/
-      '               <li><a href="about-us.html" data-i18n="aboutUs">About Us</a></li>' +
       '               <li><a href="contact.html" data-i18n="contact">Contact</a></li>' +
       (window.innerWidth <= 1024 ? "" :(language === "ar"
         ? '               <li><a href="/" style="text-decoration:underline;" onclick="changeLanguage(event, \'en\')" key="en"><i class="fa fa-globe" aria-hidden="true"></i> English</a></li>'

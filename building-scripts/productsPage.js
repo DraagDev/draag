@@ -193,7 +193,7 @@ const buildProducts = () =>{
             '   </div>'+
             '</div>'
             if(index === 2){
-                if(window.location.pathname==="/" ||window.location.pathname==="/index.html"){
+                if(window.location.pathname.endsWith("/") ||window.location.pathname.endsWith("/index.html")){
                     let viewAllBtnContainer = document.getElementById("viewAllBtnContainer");
                     viewAllBtnContainer.innerHTML += '<a class="btn circle btn-theme effect btn-md" href="/products.html">'+(language==="ar"?'<i class="fas fa-angle-left"></i>' : "")+ ' <span data-i18n="viewAll">View All </span>'+(language==="en"?'<i class="fas fa-angle-right"></i>' : "")+'</a>'
                     products.length = index ; //break
