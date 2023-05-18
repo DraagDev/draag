@@ -70,6 +70,7 @@ const buildBottomNavbar = () => {
   if (element) {
     element.innerHTML =
       '<nav class="navbar navbar-default navbar-sticky bootsnav">' +
+      
       '   <div class="container-fluid">' +
       /*'        <div class="attr-nav inc-border">' +
       "            <ul>" +
@@ -77,17 +78,21 @@ const buildBottomNavbar = () => {
       "            </ul>" +
       "        </div> " +*/
       '        <div class="navbar-header" style="float:'+ (window.innerWidth <= 1023 ? "none" :(language==="en" ? "left" : "right")) + ';">' +
-      '            <button type="button" class="navbar-toggle" style="float:'+ (language==="en" ? "left" : "right; margin-right:0;") + ';" data-toggle="collapse" data-target="#navbar-menu">' +
+      '            <button type="button" class="navbar-toggle" style="color:#000; float:'+ (language==="en" ? "left" : "right; margin-right:0;") + ';" data-toggle="collapse" data-target="#navbar-menu">' +
       '                <i class="fa fa-bars"></i>' +
       "            </button>" +
       '            <a class="navbar-brand mx-0 px-0" href="index.html">' +
       '                <img src="assets/img/logo.png" class="logo" alt="Logo">' +
       "            </a>" +
+      (window.innerWidth <= 1024 ? (language === "ar"
+      ? '              <a href="/" style="text-decoration:underline;float:left; margin-top:25px"  onclick="changeLanguage(event, \'en\')" key="en"><i class="fa fa-globe" aria-hidden="true"></i> English</a>'
+      : '              <a href="#" style="text-decoration:underline;float:right; margin-top:25px"  onclick="changeLanguage(event, \'ar\')" key="ar">عربي <i class="fa fa-globe" aria-hidden="true"></i></a>') :"")+  
+      
       "       </div>" +
       "        <!-- End Header Navigation -->" +
       "       <!-- Collect the nav links, forms, and other content for toggling -->" +
       '        <div class="collapse navbar-collapse" id="navbar-menu">' +
-      '            <ul class="nav navbar-nav navbar-center'+ (window.innerWidth >= 1023 ? (language==="en" ? " d-flex justify-content-center flex-row" : " d-flex justify-content-center flex-row-reverse") : "") + '" data-in="fadeInDown" data-out="fadeOutUp">' +
+      '            <ul class="nav navbar-nav navbar-center'+ (window.innerWidth >= 1023 ? (language==="en" ? " d-flex justify-content-center flex-row" : " d-flex justify-content-center flex-row-reverse") : (language==="en" ? " text-left" : " text-right")) + '" data-in="fadeInDown" data-out="fadeOutUp">' +
       '               <li><a href="index.html" data-i18n="home">Home</a></li>' +
       '               <li><a href="products.html" data-i18n="products">Products</a></li>' +
       /*'                <li class="dropdown">' +
@@ -122,12 +127,13 @@ const buildBottomNavbar = () => {
       "               </li>" +*/
       '               <li><a href="about-us.html" data-i18n="aboutUs">About Us</a></li>' +
       '               <li><a href="contact.html" data-i18n="contact">Contact</a></li>' +
-      (language === "ar"
+      (window.innerWidth <= 1024 ? "" :(language === "ar"
         ? '               <li><a href="/" style="text-decoration:underline;" onclick="changeLanguage(event, \'en\')" key="en"><i class="fa fa-globe" aria-hidden="true"></i> English</a></li>'
-        : '               <li><a href="#" style="text-decoration:underline;" onclick="changeLanguage(event, \'ar\')" key="ar">عربي <i class="fa fa-globe" aria-hidden="true"></i></a></li>') +
+        : '               <li><a href="#" style="text-decoration:underline;" onclick="changeLanguage(event, \'ar\')" key="ar">عربي <i class="fa fa-globe" aria-hidden="true"></i></a></li>') )+
       "           </ul>" +
       "       </div>" +
-      "   </div>" +
+   
+       "   </div>" +
       "   <!-- Start Side Menu -->" +
       /*'   <div class="side">' +
       '       <a href="#" class="close-side"><i class="ti-close"></i></a>' +

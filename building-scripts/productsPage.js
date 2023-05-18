@@ -171,7 +171,11 @@ const buildProducts = () =>{
     let productsContainer = document.getElementById("productsContainer");
     if (productsContainer) {
         products.forEach((item, index)=>{
-
+            if(index === 2){
+                if(window.location.pathname==="/" ||window.location.pathname==="/index.html"){
+                    products.length = index +1; //break
+                }
+            }
         productsContainer.innerHTML +=
             '<div class="single-item col-lg-4 col-md-6 '+(language==="en" ? "" : 'text-right"')+'" key="product-"' + index + '>'+
             '    <div class="item">'+
