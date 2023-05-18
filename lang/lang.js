@@ -34,7 +34,7 @@ var translations = {
         'ourGalleryTitle1': "Our Gallery",
         'ourGalleryTitle2': "Latest projects showcase",
         'naturalProducts': "Natural Products",
-        
+        'viewAll':"View All",
     },
     
     'ar':{
@@ -63,7 +63,8 @@ var translations = {
         'ourGalleryTitle1': "معرضنا",
         'ourGalleryTitle2': "عرض أحدث المشاريع",
         'naturalProducts': "منتجات طبيعية",
-        
+        'viewAll':"عرض الكل",
+
     }
 }
 

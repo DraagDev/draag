@@ -171,11 +171,7 @@ const buildProducts = () =>{
     let productsContainer = document.getElementById("productsContainer");
     if (productsContainer) {
         products.forEach((item, index)=>{
-            if(index === 2){
-                if(window.location.pathname==="/" ||window.location.pathname==="/index.html"){
-                    products.length = index +1; //break
-                }
-            }
+            
         productsContainer.innerHTML +=
             '<div class="single-item col-lg-4 col-md-6 '+(language==="en" ? "" : 'text-right"')+'" key="product-"' + index + '>'+
             '    <div class="item">'+
@@ -196,6 +192,15 @@ const buildProducts = () =>{
             '       </div>'+
             '   </div>'+
             '</div>'
+            if(index === 2){
+                if(window.location.pathname==="/" ||window.location.pathname==="/index.html"){
+                    let viewAllBtnContainer = document.getElementById("viewAllBtnContainer");
+                    viewAllBtnContainer.innerHTML += '<a class="btn circle btn-theme effect btn-md" href="/products.html">'+(language==="ar"?'<i class="fas fa-angle-left"></i>' : "")+ ' <span data-i18n="viewAll">View All </span>'+(language==="en"?'<i class="fas fa-angle-right"></i>' : "")+'</a>'
+                    products.length = index ; //break
+                }
+            }
         })
+
 }
 }
+
