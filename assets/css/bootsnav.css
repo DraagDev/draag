@@ -2382,7 +2382,7 @@ nav.bootsnav.navbar-sidebar .dropdown .megamenu-content .col-menu ul.menu-col li
   nav.navbar.bootsnav .navbar-toggle {
     display: inline-block;
     float: left;
-    margin-right: -200px;
+    /*margin-right: -200px;*/
     margin-top: 20px;
   }
 
