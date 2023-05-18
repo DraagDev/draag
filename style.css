@@ -375,6 +375,9 @@ input {
 .bg-light {
   background-color: #ffffff;
 }
+.bg-light-custom {
+  background-color: #ffffff;
+}
 
 .bg-theme {
   background-color: #f1cf69;

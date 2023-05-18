@@ -173,14 +173,14 @@ const buildProducts = () =>{
         products.forEach((item, index)=>{
             
         productsContainer.innerHTML +=
-            '<div class="single-item col-lg-4 col-md-6 '+(language==="en" ? "" : 'text-right"')+'" key="product-"' + index + '>'+
+            '<div class="single-item col-lg-4 col-md-6 '+(language==="en" ? "text-left" : 'text-right"')+'" key="product-"' + index + '>'+
             '    <div class="item">'+
             '        <div class="thumb">'+
             '            <img src="assets/img/800x600.png" alt="Thumb">'+
             //'           <div class="date" '+(language==="en" ? "" : 'style="right:unset;left:30px;"')+'>'+item.price[language]+'</div>'+
             '           <div class="date" '+(language==="en" ? "" : 'style="right:unset;left:30px;"')+'>'+item.name[language]+'</div>'+
             '       </div>'+
-            '       <div class="info">'+
+            '       <div class="info mt-0">'+
            /* '           <h4>'+
             '               '+item.name[language]+''+
             //'               <a href="#">Chicken</a>'+
