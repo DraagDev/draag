@@ -78,7 +78,7 @@ const buildContent = () =>{
         '                   </li>'+
         '                   <li>'+
         '                       <h4 data-i18n="phone">Phone</h4>'+
-        '                       <span>+20 155 141 1117 <br>+20 155 045 5045 <br>+20 82 237 806 7 <br>+20 82 237 806 5</span>'+
+        '                       <span dir="ltr">+20 155 141 1117 <br>+20 155 045 5045 <br>+20 82 237 806 7 <br>+20 82 237 806 5</span>'+
         '                   </li>'+
         '                   <li>'+
         '                       <h4 data-i18n="email">Email</h4>'+
