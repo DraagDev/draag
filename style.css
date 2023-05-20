@@ -4427,7 +4427,8 @@ body,
   color: #f1cf69;
   font-weight: 600;
   letter-spacing: 1px;
-  margin-bottom: 25px;
+  font-size: 1.5rem;
+  margin-bottom: 0px;
 }
 
 .testimonials-area .info h2 {

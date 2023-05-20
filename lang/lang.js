@@ -35,6 +35,7 @@ var translations = {
         'ourGalleryTitle2': "Latest projects showcase",
         'naturalProducts': "Natural Products",
         'viewAll':"View All",
+        'ourClients':"Our Clients",
     },
     
     'ar':{
@@ -64,6 +65,7 @@ var translations = {
         'ourGalleryTitle2': "عرض أحدث المشاريع",
         'naturalProducts': "منتجات طبيعية",
         'viewAll':"عرض الكل",
+        'ourClients':"عملائنا",
 
     }
 }

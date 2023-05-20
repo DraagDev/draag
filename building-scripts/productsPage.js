@@ -12,7 +12,7 @@ const products = [
             en:"500 EGP",
             ar:"500 جم",
         },*/
-        'img': "assets/img/800x600.png"
+        'img': "assets/img/products/whole turkey.png"
     },
     {
         'name': {
@@ -23,7 +23,7 @@ const products = [
             en:"Lean, boneless, skinless; versatile for grilling, baking, or sandwiches",
             ar:"صدر الديك الرومي خالي من العظام والجلد ومنزوع الدهون، مثالي للشواء، الخبز، أو تقطيعه للسندويشات",
         },
-        'img': "assets/img/800x600.png"
+        'img': "assets/img/products/Turkey Breast.png"
     },
     {
         'name': {
@@ -34,7 +34,7 @@ const products = [
             en:"Juicy dark meat; ideal for roasting, smoking, or slow-cooking",
             ar:"أرجل الديك الرومي العصيرية والطرية مثالية للشواء، التدخين، أو الطبخ البطيء",
         },
-        'img': "assets/img/800x600.png"
+        'img': "assets/img/products/Turkey Drumsticks.png"
     },
     {
         'name': {
@@ -45,7 +45,7 @@ const products = [
             en:"Succulent, bone-in, skin-on; perfect for roasting, braising, or stews",
             ar:"فخذ الديك الرومي مع العظم والجلد مثالي للشواء، الحساء، أو الطبخ البطيء",
         },
-        'img': "assets/img/800x600.png"
+        'img': "assets/img/products/Turkey Thighs.png"
     },
     {
         'name': {
@@ -56,7 +56,7 @@ const products = [
             en:"Meaty, flavorful white meat; suitable for grilling, baking, or slow-cooking",
             ar:"أجنحة الديك الرومي اللذيذة والممتلئة مثالية للشواء، الخبز، أو الطبخ البطيء و تشكل اختيار ممتاز للمقبلات في المطاعم",
         },
-        'img': "assets/img/800x600.png"
+        'img': "assets/img/products/Turkey Wings.png"
     },
     {
         'name': {
@@ -67,7 +67,7 @@ const products = [
             en:"Tasty, nutritious choice; perfect for stocks, broths, or slow-cooked meals",
             ar:"أعناق الديك الرومي طيبة وغذائية مثالية لصنع المرق أو الحساء أو الطبخ البطيء و لها العديد من الاستخدامات في الصناعات الغذائية",
         },
-        'img': "assets/img/800x600.png"
+        'img': "assets/img/products/Turkey Necks.png"
     },
     {
         'name': {
@@ -78,7 +78,7 @@ const products = [
             en:"Nutrient-dense organ meats; ideal for gravy, stuffing",
             ar:"أحشاء الديك الرومي، التي تشمل القلب والكبد و القوانص ، تقدم خيارًا لذيذًا وغنيًا بالعناصر الغذائية لأولئك الذين يقدرون النكهات الفريدة لأعضاء الجسم الداخلية",
         },
-        'img': "assets/img/800x600.png"
+        'img': "assets/img/products/Turkey Gizzard.png"
     },
     {
         'name': {
@@ -89,7 +89,7 @@ const products = [
             en:"Best chicken in the farm",
             ar:"احلا فراخ",
         },
-        'img': "assets/img/800x600.png"
+        'img': "assets/img/products/turkey liver.png"
     },
     {
         'name': {
@@ -100,7 +100,7 @@ const products = [
             en:"Best chicken in the farm",
             ar:"احلا فراخ",
         },
-        'img': "assets/img/800x600.png"
+        'img': "assets/img/products/turkey shish.png"
     },
     {
         'name': {
@@ -111,7 +111,7 @@ const products = [
             en:"Best chicken in the farm",
             ar:"احلا فراخ",
         },
-        'img': "assets/img/800x600.png"
+        'img': "assets/img/products/whole turkey.png"
     },
     {
         'name': {
@@ -122,7 +122,7 @@ const products = [
             en:"Best chicken in the farm",
             ar:"احلا فراخ",
         },
-        'img': "assets/img/800x600.png"
+        'img': "assets/img/products/whole turkey.png"
     },
     {
         'name': {
@@ -133,7 +133,7 @@ const products = [
             en:"Best chicken in the farm",
             ar:"احلا فراخ",
         },
-        'img': "assets/img/800x600.png"
+        'img': "assets/img/products/whole turkey.png"
     },
 ]
 
@@ -176,7 +176,7 @@ const buildProducts = () =>{
             '<div class="single-item col-lg-4 col-md-6 '+(language==="en" ? "text-left" : 'text-right"')+'" key="product-"' + index + '>'+
             '    <div class="item">'+
             '        <div class="thumb">'+
-            '            <img src="assets/img/800x600.png" alt="Thumb">'+
+            '            <img src="'+item.img+'" alt="Thumb">'+
             //'           <div class="date" '+(language==="en" ? "" : 'style="right:unset;left:30px;"')+'>'+item.price[language]+'</div>'+
             '           <div class="date" '+(language==="en" ? "" : 'style="right:unset;left:30px;"')+'>'+item.name[language]+'</div>'+
             '       </div>'+
