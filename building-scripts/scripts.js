@@ -85,8 +85,8 @@ const buildBottomNavbar = () => {
       '                <img src="assets/img/logo.png" class="logo" alt="Logo">' +
       "            </a>" +
       (window.innerWidth < 1024 ? (language === "ar"
-      ? '              <a href="/" style="text-decoration:underline;float:left; margin-top:25px"  onclick="changeLanguage(event, \'en\')" key="en"><i class="fa fa-globe" aria-hidden="true"></i> English</a>'
-      : '              <a href="#" style="text-decoration:underline;float:right; margin-top:25px"  onclick="changeLanguage(event, \'ar\')" key="ar">عربي <i class="fa fa-globe" aria-hidden="true"></i></a>') :"")+  
+      ? '              <a href="/" style="text-decoration:underline;float:left; margin-top:25px; margin-right:-50px;"  onclick="changeLanguage(event, \'en\')" key="en"><i class="fa fa-globe" aria-hidden="true"></i> English</a>'
+      : '              <a href="#" style="text-decoration:underline;float:right; margin-top:25px;"  onclick="changeLanguage(event, \'ar\')" key="ar">عربي <i class="fa fa-globe" aria-hidden="true"></i></a>') :"")+  
       
       "       </div>" +
       "        <!-- End Header Navigation -->" +
