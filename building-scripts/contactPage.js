@@ -43,7 +43,7 @@ const buildHeader = () =>{
     let element = document.getElementById("contactUsHeader");
     if (element) {
       element.innerHTML =
-      '<div class="breadcrumb-area text-center shadow dark bg-fixed text-light" style="background-image: url(assets/img/2440x1578.png);">'+
+      '<div class="breadcrumb-area text-center shadow dark bg-fixed text-light" style="background-image: url(assets/img/backgrounds/contactus.png);">'+
       '<div class="container">'+
       '    <div class="row">'+
       '        <div class="col-lg-8 offset-lg-2">'+

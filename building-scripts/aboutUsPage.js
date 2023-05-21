@@ -58,27 +58,26 @@ const buildAboutContentSection = () =>{
       '                 <li>'+
       '                     <div class="fun-fact">'+
       '                         <div class="counter">'+
-      '                             <div class="timer" data-to="8600" data-speed="5000">8600</div>'+
+      '                             <div class="timer" data-to="2000" data-speed="1000">2000</div>'+
       '                             <div class="operator">+</div>'+
       '                         </div>'+
-      '                         <span class="medium" data-i18n="whoWeAreNumber1">Tons of harvesta</span>'+
+      '                         <span class="medium" data-i18n="productionCapacityPerDay">Production Capacity Per Day</span>'+
       '                     </div>'+
       '                 </li>'+
       '                 <li>'+
       '                     <div class="fun-fact">'+
       '                         <div class="counter">'+
       '                             <div class="timer" data-to="100" data-speed="5000">100</div>'+
-      '                             <div class="operator">%</div>'+
       '                         </div>'+
-      '                         <span class="medium" data-i18n="whoWeAreNumber2">Organic Product</span>'+
+      '                         <span class="medium" data-i18n="numberOfWorkers">Number Of Workers</span>'+
       '                     </div>'+
       '                 </li>'+
       '             </ul>'+
       '         </div>'+
       '         <div class="col-lg-6">'+
       '             <div class="thumb">'+
-      '                 <img class="wow fadeInRight" data-wow-delay="700ms" src="assets/img/800x800.png" alt="Thumb">'+
-      '                 <img class="wow fadeInUp" data-wow-delay="1000ms" src="assets/img/800x800.png" alt="Thumb">'+
+      '                 <img class="wow fadeInRight" data-wow-delay="700ms" src="assets/img/backgrounds/who we are.png" alt="Thumb">'+
+      //'                 <img class="wow fadeInUp" data-wow-delay="1000ms" src="assets/img/ew.png" alt="Thumb">'+
       '             </div>'+
       '         </div>'+
       

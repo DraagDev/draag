@@ -82,7 +82,7 @@ const buildBottomNavbar = () => {
       '                <i class="fa fa-bars"></i>' +
       "            </button>" +
       '            <a class="navbar-brand mx-0 px-0" href="index.html">' +
-      '                <img src="assets/img/logo.png" class="logo" alt="Logo">' +
+      '                <img src="assets/img/ew.png" class="logo" alt="Logo">' +
       "            </a>" +
       (window.innerWidth < 1024 ? (language === "ar"
       ? '              <a href="/" style="text-decoration:underline;float:left; margin-top:25px; margin-right:-50px;"  onclick="changeLanguage(event, \'en\')" key="en"><i class="fa fa-globe" aria-hidden="true"></i> English</a>'
@@ -184,7 +184,7 @@ const buildFooter = () => {
       "               <!-- Single Itme -->" +
       '               <div class="col-lg-5 col-md-6 item">' +
       '                   <div class="f-item about">' +
-      '                       <img src="assets/img/logo-light.png" alt="Logo">' +
+      '                       <img src="assets/img/ew-light.png" alt="Logo">' +
       "                       <p data-i18n='footerText'>" +
       "                           Happen active county. Winding for the morning am shyness evident to poor. Garrets because elderly new to the point." +
       "                       </p>" +

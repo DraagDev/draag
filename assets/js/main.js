@@ -1,7 +1,7 @@
 /* ===================================================================
     
     Author          : Valid Theme
-    Template Name   : Farmi - Organic Farm Agriculture Template
+    Template Name   : Draag - Best Quality Turkey Products
     Version         : 1.0
     
 * ================================================================= */

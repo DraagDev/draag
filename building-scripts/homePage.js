@@ -2,10 +2,28 @@ document.addEventListener("DOMContentLoaded", () => {
     buildTopNavbar();
     buildBottomNavbar();
     buildFooter();
-    ourClientsTranslation()
+    ourClientsTranslation();
+    translationsStyle();
 });
 
 
+const translationsStyle = () =>{
+    let whoWeAreHomeStyle = document.getElementById("whoWeAreHomeStyle");
+    if(language === "ar"){
+
+        if (whoWeAreHomeStyle) {
+            whoWeAreHomeStyle.innerHTML ='<style>   '+
+            (language==="en" ? "" : '.about-area .info h5::after {left:-44px; background: url(assets/img/illustration/2-inverse.png);background-size: contain;background-repeat: no-repeat;background-position-x:right;}') +
+            (language==="en" ? "" : '.about-area .info {text-align:right;}') +
+            '</style>'
+        }
+        
+        let homePageNumbersContainer = document.getElementById("homePageNumbersContainer");
+        if (homePageNumbersContainer) {
+            homePageNumbersContainer.classList += " flex-row-reverse"
+        }
+    }
+}
 const ourClientsTranslation = () =>{
   
     let element = document.getElementById("ourClients");
