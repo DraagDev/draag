@@ -37,7 +37,7 @@ const buildTopNavbar = () => {
       '            <div class="social">' +
       "                <ul>" +
       "                    <li class='mx-3 px-0'>" +
-      '                        <a href="#">' +
+      '                        <a href="https://www.facebook.com/profile.php?id=100092530524762">' +
       '                            <i class="fab fa-facebook-f"></i>' +
       "                        </a>" +
       "                    </li>" +
