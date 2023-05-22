@@ -78,14 +78,14 @@ const buildBottomNavbar = () => {
       "            </ul>" +
       "        </div> " +*/
       '        <div class="navbar-header" style="float:'+ (window.innerWidth <= 1023 ? "none" :(language==="en" ? "left" : "right")) + ';">' +
-      '            <button type="button" class="navbar-toggle" style="color:#000; float:'+ (language==="en" ? "left" : "right; margin-right:0;") + ';" data-toggle="collapse" data-target="#navbar-menu">' +
+      '            <button type="button" class="navbar-toggle" style="color:#000; float:'+ (language==="en" ? "left; margin-right:35px;" : "right; margin-right:0;") + ';" data-toggle="collapse" data-target="#navbar-menu">' +
       '                <i class="fa fa-bars"></i>' +
       "            </button>" +
       '            <a class="navbar-brand mx-0 px-0" href="index.html">' +
       '                <img src="assets/img/ew.png" class="logo" alt="Logo">' +
       "            </a>" +
       (window.innerWidth < 1024 ? (language === "ar"
-      ? '              <a href="/" style="text-decoration:underline;float:left; margin-top:25px; margin-right:-50px;"  onclick="changeLanguage(event, \'en\')" key="en"><i class="fa fa-globe" aria-hidden="true"></i> English</a>'
+      ? '              <a href="/" style="text-decoration:underline;float:left; margin-top:25px; margin-right:-40px;"  onclick="changeLanguage(event, \'en\')" key="en"><i class="fa fa-globe" aria-hidden="true"></i> English</a>'
       : '              <a href="#" style="text-decoration:underline;float:right; margin-top:25px;"  onclick="changeLanguage(event, \'ar\')" key="ar">عربي <i class="fa fa-globe" aria-hidden="true"></i></a>') :"")+  
       
       "       </div>" +
