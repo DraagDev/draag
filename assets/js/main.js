@@ -320,7 +320,7 @@
             # Partner Carousel
          ===============================================*/
         $('.partner-carousel').owlCarousel({
-            loop: false,
+            loop: true,
             margin: 30,
             nav: false,
             navText: [
@@ -329,6 +329,7 @@
             ],
             dots: false,
             autoplay: true,
+            autoplayTimeout:2500,
             responsive: {
                 0: {
                     items: 2
