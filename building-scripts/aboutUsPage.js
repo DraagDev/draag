@@ -9,7 +9,7 @@ const buildHeader = () =>{
     let element = document.getElementById("aboutUsHeader");
     if (element) {
       element.innerHTML =
-      '<div class="breadcrumb-area text-center shadow dark bg-fixed text-light" style="background-image: url(assets/img/2440x1578.png);">'+
+      '<div class="breadcrumb-area text-center shadow dark bg-fixed text-light" style="background-image: url(assets/img/backgrounds/contactus.png);">'+
       '<div class="container">'+
       '    <div class="row">'+
       '        <div class="col-lg-8 offset-lg-2">'+
@@ -67,9 +67,9 @@ const buildAboutContentSection = () =>{
       '                 <li>'+
       '                     <div class="fun-fact">'+
       '                         <div class="counter">'+
-      '                             <div class="timer" data-to="100" data-speed="5000">100</div>'+
+      '                             <div class="timer" data-to="500000" data-speed="1000">500000</div>'+
       '                         </div>'+
-      '                         <span class="medium" data-i18n="numberOfWorkers">Number Of Workers</span>'+
+      '                         <span class="medium" data-i18n="herdNumberPerYear">Herd Number Per Year</span>'+
       '                     </div>'+
       '                 </li>'+
       '             </ul>'+

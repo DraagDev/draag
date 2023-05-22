@@ -71,34 +71,34 @@ const products = [
     },
     {
         'name': {
-            en:"Turkey Giblets",
-            ar: "أحشاء الديك الرومي"
+            en:"Turkey Heart",
+            ar: "قلب الديك الرومي"
         },
         'description': {
-            en:"Nutrient-dense organ meats; ideal for gravy, stuffing",
-            ar:"أحشاء الديك الرومي، التي تشمل القلب والكبد و القوانص ، تقدم خيارًا لذيذًا وغنيًا بالعناصر الغذائية لأولئك الذين يقدرون النكهات الفريدة لأعضاء الجسم الداخلية",
+            en:"Rich in nutrients; ideal for sautéing, stews, or gravy",
+            ar:"غني بالعناصر الغذائية؛ مثالي للقلي، والأطباق المحضّرة على نار هادئة، أو لصلصات اللحوم",
         },
         'img': "assets/img/products/Turkey Gizzard.png"
     },
     {
         'name': {
-            en:"Chicken",
-            ar: "فراخ"
+            en:"Turkey Liver",
+            ar: "كبد الديك الرومي"
         },
         'description': {
-            en:"Best chicken in the farm",
-            ar:"احلا فراخ",
+            en:"Rich in vitamins and flavours, very healthy and tasty choice",
+            ar:"غني بالفيتامينات والنكهات، خيار صحي ولذيذ جدًا",
         },
         'img': "assets/img/products/turkey liver.png"
     },
     {
         'name': {
-            en:"Chicken",
-            ar: "فراخ"
+            en:"Turkey Shish",
+            ar: "شيش الديك الرومى"
         },
         'description': {
-            en:"Best chicken in the farm",
-            ar:"احلا فراخ",
+            en:"Dark boneless turkey meat rich in flavour and tasty great source of protein and iron",
+            ar:"لحم الديك الرومي الداكن الخالي من العظم غني بالنكهة والطعم، وهو مصدر رائع للبروتين والحديد",
         },
         'img': "assets/img/products/turkey shish.png"
     },

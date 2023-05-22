@@ -127,7 +127,7 @@ const buildBottomNavbar = () => {
       "                   </ul>" +
       "               </li>" +*/
       '               <li><a href="contact.html" data-i18n="contact">Contact</a></li>' +
-      (window.innerWidth <= 1024 ? "" :(language === "ar"
+      (window.innerWidth < 1024 ? "" :(language === "ar"
         ? '               <li><a href="/" style="text-decoration:underline;" onclick="changeLanguage(event, \'en\')" key="en"><i class="fa fa-globe" aria-hidden="true"></i> English</a></li>'
         : '               <li><a href="#" style="text-decoration:underline;" onclick="changeLanguage(event, \'ar\')" key="ar">عربي <i class="fa fa-globe" aria-hidden="true"></i></a></li>') )+
       "           </ul>" +
@@ -251,7 +251,7 @@ const buildFooter = () => {
       "               <!-- Single Itme -->" +
       '               <div class="col-lg-3 col-md-6 item">' +
       '                   <div class="f-item">' +
-      '                       <h4 class="widget-title">Contact Info</h4>' +
+      '                       <h4 class="widget-title" data-i18n="contactInfo">Contact Info</h4>' +
       '                       <div class="address">' +
       "                           <ul>" +
       "                               <li>" +
@@ -271,7 +271,7 @@ const buildFooter = () => {
       '                       <div class="social">' +
       "                           <ul>" +
       '                               <li class="facebook">' +
-      '                                   <a href="#">' +
+      '                                   <a href="https://www.facebook.com/profile.php?id=100092530524762">' +
       '                                       <i class="fab fa-facebook-f"></i>' +
       "                                   </a>" +
       "                               </li>" +

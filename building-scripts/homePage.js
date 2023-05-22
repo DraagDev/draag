@@ -9,12 +9,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const translationsStyle = () =>{
     let whoWeAreHomeStyle = document.getElementById("whoWeAreHomeStyle");
+    let textAlignItems = document.getElementsByClassName("textAlign")
+    let directionCustomItems = document.getElementsByClassName("directionCustom")
     if(language === "ar"){
 
         if (whoWeAreHomeStyle) {
             whoWeAreHomeStyle.innerHTML ='<style>   '+
-            (language==="en" ? "" : '.about-area .info h5::after {left:-44px; background: url(assets/img/illustration/2-inverse.png);background-size: contain;background-repeat: no-repeat;background-position-x:right;}') +
-            (language==="en" ? "" : '.about-area .info {text-align:right;}') +
+            (language==="en" ? "" : '.about-area .info h5::after {'+(window.innerWidth <= 700 ? 'left:30px;width:250%;':'left:-44px;')+' background: url(assets/img/illustration/2-inverse.png);background-size: contain;background-repeat: no-repeat;background-position-x:right;}') +
+            (language==="en" ? "" : '.about-area .info h5{text-align:right; font-size:1.8rem;}') +
+            (language==="en" ? "" : (window.innerWidth <= 1024 ? '.about-area .info {text-align:center;}':'.about-area .info {text-align:right;}')) +
             '</style>'
         }
         
@@ -22,6 +25,14 @@ const translationsStyle = () =>{
         if (homePageNumbersContainer) {
             homePageNumbersContainer.classList += " flex-row-reverse"
         }
+
+        for (let i = 0; i < textAlignItems.length; i++) {
+            textAlignItems[i].classList += " text-right"
+        }
+        for (let i = 0; i < directionCustomItems.length; i++) {
+            directionCustomItems[i].dir = "rtl"
+        }
+       
     }
 }
 const ourClientsTranslation = () =>{
