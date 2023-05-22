@@ -9,7 +9,7 @@ const buildHeader = () =>{
     let element = document.getElementById("aboutUsHeader");
     if (element) {
       element.innerHTML =
-      '<div class="breadcrumb-area text-center shadow dark bg-fixed text-light" style="background-image: url(assets/img/backgrounds/contactus.png);">'+
+      '<div class="breadcrumb-area text-center shadow dark bg-fixed text-light" style="background-image: url(assets/img/backgrounds/aboutus.png);">'+
       '<div class="container">'+
       '    <div class="row">'+
       '        <div class="col-lg-8 offset-lg-2">'+
