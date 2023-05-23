@@ -5,7 +5,7 @@ const products = [
             ar: "الديك الرومي الكامل"
         },
         'description': {
-            en:"Premium, tender whole turkeys; hygienically processed and air-chilled",
+            en:"Premium, tender whole turkeys; hygienically processed and air-chilled.",
             ar:"ديك رومي كامل عالي الجودة، يتم معالجته وفقًا لأعلى معايير النظافة ويتم تبريده بالهواء للحفاظ على الطعم الطازج",
         },
         /*'price': {
@@ -20,8 +20,8 @@ const products = [
             ar: "صدر الديك الرومي"
         },
         'description': {
-            en:"Lean, boneless, skinless; versatile for grilling, baking, or sandwiches",
-            ar:"صدر الديك الرومي خالي من العظام والجلد ومنزوع الدهون، مثالي للشواء، الخبز، أو تقطيعه للسندويشات",
+            en:"Turkey breasts are widely used in the deli industry for making turkey roast They're also processed into ground turkey, turkey sausages, and turkey bacon and smoked turkey breasts.",
+            ar:"تستخدم صدور الديك الرومي على نطاق واسع في صناعة المخابز لصنع لحم ديك رومي مشوى. كما يتم تجهيزها أيضًا لتصنيع لحم ديك رومي مفروم وسجق الديك الرومي وشرائح الديك الرومي المدخنة",
         },
         'img': "assets/img/products/Turkey Breast.png"
     },
@@ -31,8 +31,8 @@ const products = [
             ar: "دبوس الديك الرومي"
         },
         'description': {
-            en:"Juicy dark meat; ideal for roasting, smoking, or slow-cooking",
-            ar:"أرجل الديك الرومي العصيرية والطرية مثالية للشواء، التدخين، أو الطبخ البطيء",
+            en:"Turkey drumsticks are a popular choice for barbecue and grilling in the foodservice industry due to their size and rich flavor. They are often smoked or roasted and served in restaurants or at special events.",
+            ar:"هي خيار شائع للشواء والشوي في صناعة الطعام بسبب حجمها ونكهتها الغنية. عادة ما تُدخن أو تُحمص وتُقدم في المطاعم أو في المناسبات الخاصة",
         },
         'img': "assets/img/products/Turkey Drumsticks.png"
     },
@@ -42,8 +42,8 @@ const products = [
             ar: "فخذ الديك الرومي"
         },
         'description': {
-            en:"Succulent, bone-in, skin-on; perfect for roasting, braising, or stews",
-            ar:"فخذ الديك الرومي مع العظم والجلد مثالي للشواء، الحساء، أو الطبخ البطيء",
+            en:"Turkey thighs are rich in flavor and are commonly used in the foodservice industry for dishes that require slow cooking, such as stews and casseroles. In processed food manufacturing, thighs are often used to produce ground turkey, sausages, and turkey bacon.",
+            ar:"تُستخدم أفخاذ الديك الرومي بكثرة في صناعة الطعام للأطباق التي تتطلب الطهي البطيء و في صناعة الأطعمة المُصنعة، تُستخدم الأفخاذ لإنتاج لحم الديك الرومي المفروم، النقانق والبيكون",
         },
         'img': "assets/img/products/Turkey Thighs.png"
     },
@@ -53,8 +53,8 @@ const products = [
             ar: "أجنحة الديك الرومي"
         },
         'description': {
-            en:"Meaty, flavorful white meat; suitable for grilling, baking, or slow-cooking",
-            ar:"أجنحة الديك الرومي اللذيذة والممتلئة مثالية للشواء، الخبز، أو الطبخ البطيء و تشكل اختيار ممتاز للمقبلات في المطاعم",
+            en:"Turkey wings are typically used in foodservice for barbecued or baked wings. They can also be smoked or used to create broths and stocks.",
+            ar:" تُستخدم أجنحة الديك الرومي عادة في صناعة الطعام للأجنحة المشوية أو المحمصة. يمكن أيضًا أن يتم تدخينها أو استخدامها لصنع المرق",
         },
         'img': "assets/img/products/Turkey Wings.png"
     },
@@ -64,19 +64,19 @@ const products = [
             ar: "أعناق الديك الرومي"
         },
         'description': {
-            en:"Tasty, nutritious choice; perfect for stocks, broths, or slow-cooked meals",
-            ar:"أعناق الديك الرومي طيبة وغذائية مثالية لصنع المرق أو الحساء أو الطبخ البطيء و لها العديد من الاستخدامات في الصناعات الغذائية",
+            en:"Turkey necks are used in the food industry primarily for making stocks, broths, and soups due to their high flavor contribution.",
+            ar:"تُستخدم أعناق الديك الرومي في صناعة الطعام أساسًا لصنع المرق والحساء بسبب مساهمتها العالية في النكهة. كما أنها خيار شائع لصناعة الطعام الخاص",
         },
         'img': "assets/img/products/Turkey Necks.png"
     },
     {
         'name': {
-            en:"Turkey Heart",
-            ar: "قلب الديك الرومي"
+            en:"Turkey Gizzard",
+            ar: "قوانص الديك الرومي"
         },
         'description': {
-            en:"Rich in nutrients; ideal for sautéing, stews, or gravy",
-            ar:"غني بالعناصر الغذائية؛ مثالي للقلي، والأطباق المحضّرة على نار هادئة، أو لصلصات اللحوم",
+            en:" Turkey gizzards are used as an ingredient in certain types of sausages. In many world cuisines, gizzards are considered a delicacy and are used in a variety of dishes from stews to stir-fries.",
+            ar:"تُستخدم في الصناعات الغذائية وأيضًا كمكون في بعض أنواع النقانق. في العديد من المطابخ العالمية، يُعتبر القوانص طبقًا شهيًا ويُستخدم في مجموعة متنوعة من الأطباق، من الحساء إلى الأطباق المقلية",
         },
         'img': "assets/img/products/Turkey Gizzard.png"
     },
@@ -86,8 +86,8 @@ const products = [
             ar: "كبد الديك الرومي"
         },
         'description': {
-            en:"Rich in vitamins and flavours, very healthy and tasty choice",
-            ar:"غني بالفيتامينات والنكهات، خيار صحي ولذيذ جدًا",
+            en:"Turkey liver is a sought-after product in the production of pâtés and spreads. It's also used in the food industry, providing a rich source of nutrients . In the culinary world, it is used for making sauces or gravy.",
+            ar:"يُستخدم كبد الديك الرومي في العديد من الصناعات الغذائية حيث يوفر مصدرًا غنيًا بالعناصر الغذائية و الفيتامينات",
         },
         'img': "assets/img/products/turkey liver.png"
     },
@@ -97,19 +97,19 @@ const products = [
             ar: "شيش الديك الرومى"
         },
         'description': {
-            en:"Dark boneless turkey meat rich in flavour and tasty great source of protein and iron",
-            ar:"لحم الديك الرومي الداكن الخالي من العظم غني بالنكهة والطعم، وهو مصدر رائع للبروتين والحديد",
+            en:"These are used in foodservice for grilling, roasting, or making turkey ham. They can also be processed into ground turkey.",
+            ar:"تُستخدم في صناعة الطعام للشواء و كما يمكن معالجتها إلى لحم ديك رومي مفروم",
         },
         'img': "assets/img/products/turkey shish.png"
     },
     {
         'name': {
-            en:"Chicken",
-            ar: "فراخ"
+            en:"Turkey Heart",
+            ar: "قلب الديك الرومى"
         },
         'description': {
-            en:"Best chicken in the farm",
-            ar:"احلا فراخ",
+            en:"Turkey hearts are used in pet food manufacturing due to their high protein and nutrient content. In human food production, they are often used in sausages or prepared as a delicacy in certain cuisines.",
+            ar:"القلوب من الديك الرومي تُستخدم في العديد من الصناعات الغذائية لمحتواها العالي من البروتين و غالبًا ما يتم استخدامها في النقانق أو تحضيرها كطبق شهي في بعض المطابخ",
         },
         'img': "assets/img/products/whole turkey.png"
     },
@@ -173,7 +173,7 @@ const buildProducts = () =>{
         products.forEach((item, index)=>{
             
         productsContainer.innerHTML +=
-            '<div class="single-item col-lg-4 col-md-6 '+(language==="en" ? "text-left" : 'text-right"')+'" key="product-"' + index + '>'+
+            '<div class="single-item col-xl-4 col-md-6 '+(language==="en" ? "text-left" : 'text-right"')+'" key="product-"' + index + '>'+
             '    <div class="item">'+
             '        <div class="thumb">'+
             '            <img src="'+item.img+'" alt="Thumb">'+
@@ -185,7 +185,7 @@ const buildProducts = () =>{
             '               '+item.name[language]+''+
             //'               <a href="#">Chicken</a>'+
             '           </h4>'+*/
-            '           <p style="height:90px;">'+
+            '           <p style="height:'+(language === "ar" ? '100px;' : '190px;')+'">'+
             '               '+item.description[language]+''+
             '           </p>'+
             

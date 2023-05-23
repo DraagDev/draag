@@ -19,12 +19,13 @@ var translations = {
         'footerText': "Founded in 1987, draag food security started with a simple yet passionate idea: to provide the best quality turkey products.",
         'usefulLinks': "Useful Links",
         'address': "Address",
-        'addressContent': "Qanbash Al Hamraa, Biba, Beni Suef Governorate",
+        'addressContent': "Zefta, Gharbia Governorate, Egypt",
+        'ourLocation': "Our Location",
         'email': "Email",
         'phone': "Phone",
         'sendNow': "Send Now",
         'whoWeAre': "Who we are",
-        'whoWeAreTitle': "We provide the best quality turkey products",
+        'whoWeAreTitle': "Pioneers Of Quality Turkey Products",
         'whoWeAreContent': "Founded in 1987, draag food security started with a simple yet passionate idea: to provide the best quality turkey products from a breed imported from France. Today, our team of 100 dedicated professionals carries forward this legacy, ensuring each turkey product meets the stringent quality and safety standards our customers have come to expect.",
         'whoWeAreNumber1': "Tons of harvesta",
         'whoWeAreNumber2': "Organic Product",
@@ -55,6 +56,11 @@ var translations = {
         'contactInfo': "Contact Info",
         'ourVision': "Our Vision",
         'ourVisionContent': "We aspire to be a global leader in the turkey industry, renowned for our unwavering commitment to quality, integrity, and innovation. By prioritizing the welfare of our turkeys and the satisfaction of our customers, we aim to contribute positively to communities and the environment, while setting new standards of excellence in our industry.",
+        'ourMission': "Our Mission",
+        'ourMissionContent': "Delivering consistently high-quality, hormone and chemical-free turkey products, while upholding food safety standards and fostering community trust.",
+        'leaveAMessage1': "Let\'s talk turkey! Have a question or feedback?",
+        'leaveAMessage2': "We\'d love to hear from you.",
+        "productsPageStatment":"From our farm to you, Explore our range of quality turkey products",
     },
     
     'ar':{
@@ -68,12 +74,13 @@ var translations = {
         'footerText': 'تأسست دراج للامن الغذائي في عام 1987 بفكرة بسيطة ولكنها مليئة بالشغف و هو توفير أفضل منتجات الديك الرومي',
         'usefulLinks': "روابط مفيدة",
         'address': "العنوان",
-        'addressContent': "قنبش الحمراء، ببا، محافظة بني سويف",
+        'addressContent': "زفتى، محافظة الغربية، مصر",
+        'ourLocation': "موقعنا",
         'email': "البريد إلالكتروني",
         'phone': "الهاتف",
         'sendNow': "ارسل الان",
         'whoWeAre': "من نحن",
-        'whoWeAreTitle': 'نحن نقدم أفضل المنتجات الديك الرومي جودة',
+        'whoWeAreTitle': 'رواد انتاج الديوك الرومي في مصر',
         'whoWeAreContent': 'تأسست دراج للامن الغذائي في عام 1987 بفكرة بسيطة ولكنها مليئة بالشغف و هو توفير أفضل منتجات الديك الرومي من سلالات مستوردة من فرنسا. اليوم، يحمل فريقنا المكون من 100 عامل متفانٍ هذه الخبرة للوصول أن كل منتج من منتجات الديك الرومي يلبي معايير  للجودة والسلامة التي يتوقعها عملاؤنا',
         'whoWeAreNumber1': "طن من الحصاد",
         'whoWeAreNumber2': "منتج عضوي",
@@ -104,7 +111,11 @@ var translations = {
         'contactInfo': "معلومات الاتصال",
         'ourVision': "رؤيتنا",
         'ourVisionContent': "نطمح إلى أن نكون شركة رائدة عالمياً في صناعة الديك الرومي، معروفين بالتزامنا الدائم بالجودة، والنزاهة، والابتكار. من خلال تركيزنا على رفاهية الديوك الرومي بمزارعنا ورضا عملائنا، نهدف إلى المساهمة بشكل إيجابي في المجتمعات والبيئة، بينما نضع معايير جديدة للتميز في صناعتنا",
-    
+        'ourMission': "مهمتنا",
+        'ourMissionContent': "تقديم منتجات الديك الرومي عالية الجودة وخالية من الهرمونات والكيماويات بشكل مستمر، مع الحفاظ على معايير سلامة الغذاء وتعزيز الثقة في المجتمع",
+        'leaveAMessage1': "في حالة وجود اسألة او اي مقترحات يسعدنا ان نتواصل معكم",
+        "productsPageStatment":"من مزارعنا اليك اكتشف جودة منتجات الديك الرومي الخاصة بنا",
+
     }
 }
 
