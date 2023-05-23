@@ -173,7 +173,7 @@ const buildProducts = () =>{
         products.forEach((item, index)=>{
             
         productsContainer.innerHTML +=
-            '<div class="single-item col-xl-4 col-md-6 '+(language==="en" ? "text-left" : 'text-right"')+'" key="product-"' + index + '>'+
+            '<div class="wow fadeInUp single-item col-xl-4 col-md-6 '+(language==="en" ? "text-left" : 'text-right"')+'" key="product-"' + index + '>'+
             '    <div class="item">'+
             '        <div class="thumb">'+
             '            <img src="'+item.img+'" alt="Thumb">'+
