@@ -71,17 +71,6 @@ const products = [
     },
     {
         'name': {
-            en:"Turkey Gizzard",
-            ar: "قوانص الديك الرومي"
-        },
-        'description': {
-            en:" Turkey gizzards are used as an ingredient in certain types of sausages. In many world cuisines, gizzards are considered a delicacy and are used in a variety of dishes from stews to stir-fries.",
-            ar:"تُستخدم في الصناعات الغذائية وأيضًا كمكون في بعض أنواع النقانق. في العديد من المطابخ العالمية، يُعتبر القوانص طبقًا شهيًا ويُستخدم في مجموعة متنوعة من الأطباق، من الحساء إلى الأطباق المقلية",
-        },
-        'img': "assets/img/products/Turkey Gizzard.png"
-    },
-    {
-        'name': {
             en:"Turkey Liver",
             ar: "كبد الديك الرومي"
         },
@@ -111,29 +100,18 @@ const products = [
             en:"Turkey hearts are used in pet food manufacturing due to their high protein and nutrient content. In human food production, they are often used in sausages or prepared as a delicacy in certain cuisines.",
             ar:"القلوب من الديك الرومي تُستخدم في العديد من الصناعات الغذائية لمحتواها العالي من البروتين و غالبًا ما يتم استخدامها في النقانق أو تحضيرها كطبق شهي في بعض المطابخ",
         },
-        'img': "assets/img/products/whole turkey.png"
+        'img': "assets/img/products/turkey heart.png"
     },
     {
         'name': {
-            en:"Chicken",
-            ar: "فراخ"
+            en:"Turkey Gizzard",
+            ar: "قوانص الديك الرومي"
         },
         'description': {
-            en:"Best chicken in the farm",
-            ar:"احلا فراخ",
+            en:" Turkey gizzards are used as an ingredient in certain types of sausages. In many world cuisines, gizzards are considered a delicacy and are used in a variety of dishes from stews to stir-fries.",
+            ar:"تُستخدم في الصناعات الغذائية وأيضًا كمكون في بعض أنواع النقانق. في العديد من المطابخ العالمية، يُعتبر القوانص طبقًا شهيًا ويُستخدم في مجموعة متنوعة من الأطباق، من الحساء إلى الأطباق المقلية",
         },
-        'img': "assets/img/products/whole turkey.png"
-    },
-    {
-        'name': {
-            en:"Chicken",
-            ar: "فراخ"
-        },
-        'description': {
-            en:"Best chicken in the farm",
-            ar:"احلا فراخ",
-        },
-        'img': "assets/img/products/whole turkey.png"
+        'img': "assets/img/products/Turkey Gizzard.png"
     },
 ]
 

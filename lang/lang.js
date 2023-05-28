@@ -61,6 +61,10 @@ var translations = {
         'leaveAMessage1': "Let\'s talk turkey! Have a question or feedback?",
         'leaveAMessage2': "We\'d love to hear from you.",
         "productsPageStatment":"From our farm to you, Explore our range of quality turkey products",
+        'ourProducts': "Our Products",
+        'wholeTurkey': "Whole Turkey",
+        'turkeyBreast': "Turkey Breast",
+        'ourTeam': "Our Team",
     },
     
     'ar':{
@@ -115,7 +119,10 @@ var translations = {
         'ourMissionContent': "تقديم منتجات الديك الرومي عالية الجودة وخالية من الهرمونات والكيماويات بشكل مستمر، مع الحفاظ على معايير سلامة الغذاء وتعزيز الثقة في المجتمع",
         'leaveAMessage1': "في حالة وجود اسألة او اي مقترحات يسعدنا ان نتواصل معكم",
         "productsPageStatment":"من مزارعنا اليك اكتشف جودة منتجات الديك الرومي الخاصة بنا",
-
+        'ourProducts': "منتجاتنا",
+        'wholeTurkey': "ديك رومى كامل",
+        'turkeyBreast': "صدر الديك الرومي",
+        'ourTeam': "فريقنا",
     }
 }
 

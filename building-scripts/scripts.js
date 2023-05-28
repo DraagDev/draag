@@ -1,3 +1,7 @@
+const facebook = 'https://www.facebook.com/profile.php?id=100092530524762'
+const instagram = 'https://instagram.com/draag_food_security?igshid=NTc4MTIwNjQ2YQ=='
+const linkedin = ''
+
 //const language = localStorage.getItem("draaglang")
 function changeLanguage(e, langPassed) {
   e.preventDefault();
@@ -37,22 +41,22 @@ const buildTopNavbar = () => {
       '            <div class="social">' +
       "                <ul>" +
       "                    <li class='mx-3 px-0'>" +
-      '                        <a href="https://www.facebook.com/profile.php?id=100092530524762">' +
+      '                        <a target="_blank" href='+facebook+'>' +
       '                            <i class="fab fa-facebook-f"></i>' +
       "                        </a>" +
       "                    </li>" +
       "                    <li class='mx-3 px-0'>" +
-      '                        <a href="#">' +
-      '                            <i class="fab fa-twitter"></i>' +
+      '                        <a target="_blank" href='+instagram+'>' +
+      '                            <i class="fab fa-instagram"></i>' +
       "                        </a>" +
       "                    </li>" +
-      "                    <li class='mx-3 px-0'>" +
+      /*"                    <li class='mx-3 px-0'>" +
       '                        <a href="#">' +
       '                            <i class="fab fa-youtube"></i>' +
       "                        </a>" +
-      "                    </li>" +
+      "                    </li>" +*/
       "                    <li class='mx-3 px-0'>" +
-      '                        <a href="#">' +
+      '                        <a target="_blank" href='+linkedin+'>' +
       '                            <i class="fab fa-linkedin-in"></i>' +
       "                        </a>" +
       "                    </li>" +
@@ -271,18 +275,18 @@ const buildFooter = () => {
       '                       <div class="social">' +
       "                           <ul>" +
       '                               <li class="facebook">' +
-      '                                   <a href="https://www.facebook.com/profile.php?id=100092530524762">' +
+      '                                   <a target="_blank" href='+facebook+'>' +
       '                                       <i class="fab fa-facebook-f"></i>' +
       "                                   </a>" +
       "                               </li>" +
-      '                               <li class="twitter">' +
-      '                                   <a href="#">' +
-      '                                       <i class="fab fa-twitter"></i>' +
+      '                               <li class="instagram">' +
+      '                                   <a target="_blank" href='+instagram+'>' +
+      '                                       <i class="fab fa-instagram"></i>' +
       "                                   </a>" +
       "                               </li>" +
-      '                               <li class="youtube">' +
-      '                                   <a href="#">' +
-      '                                       <i class="fab fa-youtube"></i>' +
+      '                               <li class="linkedin-in">' +
+      '                                   <a target="_blank" href='+linkedin+'>' +
+      '                                       <i class="fab fa-linkedin-in"></i>' +
       "                                   </a>" +
       "                               </li>" +
       "                           </ul>" +
