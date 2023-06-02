@@ -42,8 +42,8 @@ const products = [
             ar: "فخذ الديك الرومي"
         },
         'description': {
-            en:"Turkey thighs are rich in flavor and are commonly used in the foodservice industry for dishes that require slow cooking, such as stews and casseroles. In processed food manufacturing, thighs are often used to produce ground turkey, sausages, and turkey bacon.",
-            ar:"تُستخدم أفخاذ الديك الرومي بكثرة في صناعة الطعام للأطباق التي تتطلب الطهي البطيء و في صناعة الأطعمة المُصنعة، تُستخدم الأفخاذ لإنتاج لحم الديك الرومي المفروم، النقانق والبيكون",
+            en:"Dark meat Succulent, bone-in, skin-on; perfect for roasting, braising, or stews or grilling.",
+            ar:"فخذ الديك الرومي مع العظم والجلد مثالي للشواء، الحساء، أو الطبخ البطيء",
         },
         'img': "assets/img/products/Turkey Thighs.png"
     },

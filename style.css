@@ -2119,6 +2119,23 @@ body,
     margin-right: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  #homePageSloganContainer h2{
+    font-size: 4rem;
+  }
+  #homePageSloganContainer a{
+    padding: 0.8rem 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  #homePageSloganContainer h2{
+    font-size: 3rem;
+  }
+}
+.banner-area.inc-shape .content::after{
+  display: none;
+}
 /* Animated Shape */
 
 .item-animated {
@@ -5880,4 +5897,19 @@ footer .footer-bottom {
   z-index: 999999;
   background: url(assets/img/preloader.gif) center no-repeat #ffffff;
   text-align: center;
+}
+
+
+
+
+
+
+
+
+#clientsLogosIndicatorsContainer {
+  overflow-y: hidden;
+}
+
+#clientsLogosIndicatorsContainer::-webkit-scrollbar {
+  display: none;
 }

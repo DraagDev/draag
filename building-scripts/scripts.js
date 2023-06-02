@@ -1,6 +1,6 @@
 const facebook = 'https://www.facebook.com/profile.php?id=100092530524762'
 const instagram = 'https://instagram.com/draag_food_security?igshid=NTc4MTIwNjQ2YQ=='
-const linkedin = ''
+const linkedin = 'https://www.linkedin.com/in/dr-draag-6b1506279/'
 
 //const language = localStorage.getItem("draaglang")
 function changeLanguage(e, langPassed) {

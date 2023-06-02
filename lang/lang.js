@@ -65,6 +65,9 @@ var translations = {
         'wholeTurkey': "Whole Turkey",
         'turkeyBreast': "Turkey Breast",
         'ourTeam': "Our Team",
+        'ourProcess': "Our Process",
+        'watchVideo': "Watch Video"
+
     },
     
     'ar':{
@@ -123,6 +126,8 @@ var translations = {
         'wholeTurkey': "ديك رومى كامل",
         'turkeyBreast': "صدر الديك الرومي",
         'ourTeam': "فريقنا",
+        'ourProcess': "عمليتنا",
+        'watchVideo': "شاهد الفيديو"
     }
 }
 
