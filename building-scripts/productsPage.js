@@ -86,7 +86,7 @@ const products = [
             ar: "شيش الديك الرومى"
         },
         'description': {
-            en:"These are used in foodservice for grilling, roasting, or making turkey ham. They can also be processed into ground turkey.",
+            en:"These are used in food service for grilling, roasting, or making turkey ham. They can also be processed into ground turkey.",
             ar:"تُستخدم في صناعة الطعام للشواء و كما يمكن معالجتها إلى لحم ديك رومي مفروم",
         },
         'img': "assets/img/products/turkey shish.png"
@@ -97,7 +97,7 @@ const products = [
             ar: "قلب الديك الرومى"
         },
         'description': {
-            en:"Turkey hearts are used in pet food manufacturing due to their high protein and nutrient content. In human food production, they are often used in sausages or prepared as a delicacy in certain cuisines.",
+            en:"Turkey hearts are used in food manufacturing due to their high protein and nutrient content. In human food production, they are often used in sausages or prepared as a delicacy in certain cuisines.",
             ar:"القلوب من الديك الرومي تُستخدم في العديد من الصناعات الغذائية لمحتواها العالي من البروتين و غالبًا ما يتم استخدامها في النقانق أو تحضيرها كطبق شهي في بعض المطابخ",
         },
         'img': "assets/img/products/turkey heart.png"
