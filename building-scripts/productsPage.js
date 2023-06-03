@@ -21,7 +21,7 @@ const products = [
         },
         'description': {
             en:"Turkey breasts are widely used in the deli industry for making turkey roast They're also processed into ground turkey, turkey sausages, and turkey bacon and smoked turkey breasts.",
-            ar:"تستخدم صدور الديك الرومي على نطاق واسع في صناعة المخابز لصنع لحم ديك رومي مشوى. كما يتم تجهيزها أيضًا لتصنيع لحم ديك رومي مفروم وسجق الديك الرومي وشرائح الديك الرومي المدخنة",
+            ar:"تُستخدم صدور الديك الرومي على نطاق واسع في صناعة اللحوم الباردة لصنع منتجات الديك الرومي المقطعة. كما يتم معالجتها إلى لحم ديك رومي مفروم، نقانق الديك الرومي، وبيكون الديك الرومي",
         },
         'img': "assets/img/products/Turkey Breast.png"
     },
@@ -35,6 +35,17 @@ const products = [
             ar:"هي خيار شائع للشواء والشوي في صناعة الطعام بسبب حجمها ونكهتها الغنية. عادة ما تُدخن أو تُحمص وتُقدم في المطاعم أو في المناسبات الخاصة",
         },
         'img': "assets/img/products/Turkey Drumsticks.png"
+    },
+    {
+        'name': {
+            en:"Turkey Drum Thighs",
+            ar: "فخذ الديك الرومي"
+        },
+        'description': {
+            en:"Turkey thighs are rich in flavor and are commonly used in the foodservice industry for dishes that require slow cooking, such as stews and casseroles. In processed food manufacturing, thighs are often used to produce ground turkey, sausages, and turkey bacon.",
+            ar:"تُستخدم أفخاذ الديك الرومي بكثرة في صناعة الطعام للأطباق التي تتطلب الطهي البطيء و في صناعة الأطعمة المُصنعة، تُستخدم الأفخاذ لإنتاج لحم الديك الرومي المفروم، النقانق والبيكون",
+        },
+        'img': "assets/img/products/Turkey Drum Thigh.png"
     },
     {
         'name': {
