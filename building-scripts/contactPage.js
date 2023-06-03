@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     inserGoogleMap()
 });
 function sendForm(form) {
-  console.log(form.name.value)
+  //console.log(form.name.value)
   const data ={
     name: form.name.value,
     email: form.email.value,
