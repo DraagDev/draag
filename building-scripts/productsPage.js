@@ -39,7 +39,7 @@ const products = [
     {
         'name': {
             en:"Turkey Drum Thighs",
-            ar: "فخذ الديك الرومي"
+            ar: "دبوس فخذ الديك الرومي"
         },
         'description': {
             en:"Turkey thighs are rich in flavor and are commonly used in the foodservice industry for dishes that require slow cooking, such as stews and casseroles. In processed food manufacturing, thighs are often used to produce ground turkey, sausages, and turkey bacon.",
