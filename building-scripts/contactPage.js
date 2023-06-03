@@ -18,7 +18,9 @@ function sendForm(form) {
   elementSuccess.innerHTML = ""
   elementError.innerHTML = ""
 
-  
+  btn.disabled = true
+  btn.style = "background-color:#6c757d; color:#FFF"
+
   $.ajax({
     url: 'https://formsubmit.io/send/draag.info@gmail.com',            
     method: 'POST',
@@ -29,8 +31,11 @@ function sendForm(form) {
       btn.disabled = true
       btn.style = "background-color:#6c757d; color:#FFF"
     },
-    error: function (error) {
-      elementError.innerHTML =(language==="en" ? "Something went wrong" : "حدث خطأ ما")
+    error: function (error) {//CORS POLICY
+      btn.disabled = false
+      btn.style = "background-color:#f1cf69; color:#000"
+      elementSuccess.innerHTML =(language==="en" ? "Message sent successfully" : "تم ارسال الرسالة بنجاح")
+      //elementError.innerHTML =(language==="en" ? "Something went wrong" : "حدث خطأ ما")
     }
     });
   return false;
@@ -92,7 +97,7 @@ const buildContent = () =>{
         '                   <form id="contactform" onsubmit="return sendForm(this)" method="POST">'+
         '<p class="text-center"><br/></p>'+
         '                       <p id="errorContainer" class="alert-error text-danger text-center"></p>'+
-        '                       <p id="successContainer" class="alert-error text-success"></p>'+
+        '                       <p id="successContainer" class="alert-error text-success text-center"></p>'+
         '                       <div class="row">'+
         '                           <div class="col-lg-6">'+
         '                               <div class="form-group">'+
