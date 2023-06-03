@@ -42,8 +42,8 @@ const products = [
             ar: "دبوس فخذ الديك الرومي"
         },
         'description': {
-            en:"Turkey thighs are rich in flavor and are commonly used in the foodservice industry for dishes that require slow cooking, such as stews and casseroles. In processed food manufacturing, thighs are often used to produce ground turkey, sausages, and turkey bacon.",
-            ar:"تُستخدم أفخاذ الديك الرومي بكثرة في صناعة الطعام للأطباق التي تتطلب الطهي البطيء و في صناعة الأطعمة المُصنعة، تُستخدم الأفخاذ لإنتاج لحم الديك الرومي المفروم، النقانق والبيكون",
+            en:"Our organic drum thighs are versatile and flavorful, ideal for smoking, curing, or grilling. Great for broths and processed meats.",
+            ar:"دبوس الورك في الديك الرومي العضوي لدينا متعددة الاستخدامات ومليئ بالنكهة، مثالية للتدخين او الشواء. رائعة للمرق و اللحوم المعالجة",
         },
         'img': "assets/img/products/Turkey Drum Thigh.png"
     },
@@ -53,8 +53,8 @@ const products = [
             ar: "فخذ الديك الرومي"
         },
         'description': {
-            en:"Dark meat Succulent, bone-in, skin-on; perfect for roasting, braising, or stews or grilling.",
-            ar:"فخذ الديك الرومي مع العظم والجلد مثالي للشواء، الحساء، أو الطبخ البطيء",
+            en:"Turkey thighs are a versatile product ideal for a range of industrial applications. Rich in protein and full of flavor, our organic, farm-raised turkey thighs can be processed into various forms – minced, sliced, or diced – suitable for use in sausages, cold cuts, canned meats, and ready meals.",
+            ar:"ورك الرومي منتج متعدد الاستخدامات ومثالي لمجموعة من التطبيقات الصناعية.  غني بالبروتين ومليئ بالنكهات ، يمكن معالجة أفخاذ الديك الرومي إلى أشكال مختلفة - مفرومة أو مقطعة إلى شرائح أو مكعبات - مناسبة للاستخدام في النقانق واللحوم الباردة واللحوم المعلبة والوجبات الجاهزة",
         },
         'img': "assets/img/products/Turkey Thighs.png"
     },
