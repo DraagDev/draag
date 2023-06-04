@@ -20,7 +20,7 @@ const products = [
             ar: "صدر الديك الرومي"
         },
         'description': {
-            en:"Turkey breasts are widely used in the deli industry for making turkey roast They're also processed into ground turkey, turkey sausages, and turkey bacon and smoked turkey breasts.",
+            en:"Turkey breasts are widely used in the deli industry for making turkey roast. They're also processed into ground turkey, turkey sausages, and turkey bacon and smoked turkey breasts.",
             ar:"تُستخدم صدور الديك الرومي على نطاق واسع في صناعة اللحوم الباردة لصنع منتجات الديك الرومي المقطعة. كما يتم معالجتها إلى لحم ديك رومي مفروم، نقانق الديك الرومي، وبيكون الديك الرومي",
         },
         'img': "assets/img/products/Turkey Breast.png"
@@ -174,7 +174,7 @@ const buildProducts = () =>{
             '               '+item.name[language]+''+
             //'               <a href="#">Chicken</a>'+
             '           </h4>'+*/
-            '           <p style="height:'+(language === "ar" ? '100px;' : '190px;')+'">'+
+            '           <p style="height:'+(language === "ar" ? '150px;' : '210px;')+'">'+
             '               '+item.description[language]+''+
             '           </p>'+
             
